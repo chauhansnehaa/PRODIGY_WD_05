@@ -1,0 +1,142 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+}
+    .container{
+    background: radial-gradient(circle, rgb(0, 0, 0) 3%, rgb(241, 47, 183) 100%);
+    width: 90%;
+    max-width: 500px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    margin: 100px auto 0;
+    text-align: center;
+    justify-content: center;
+    border: 0;
+    outline: 0;
+}
+
+.search-bar{
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+
+.search-bar input{
+    border: 0;
+    outline: 0.3px solid white;
+    background: #fff;
+    box-shadow: 5px 5px 20px rgba(70, 70, 111, 0.604);
+    height: 60px;
+    color: black;    
+    border-radius: 20px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 16px;
+    padding: 10px 24px;
+}
+
+button{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 0;
+    outline: 0.3px solid white;
+    background-color: rgba(255, 220, 155, 0.16);
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    
+    
+}
+
+
+
+.weather{
+    padding-top: 20px;
+    color: white;
+}
+.weather-icon{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    margin-bottom: -30px;
+    
+}
+
+.temp{
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+
+.city{
+    margin: -10px;
+    font-size: 28px;
+}
+
+.ri-water-percent-line{
+    font-size: 40px;
+   
+    
+}
+
+.col{
+    vertical-align: middle;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+}
+
+.humidity{
+    margin-top: -5px;
+    font-size: 30px;
+
+}
+
+.label{
+    margin-top: -30px;
+
+}
+
+.ri-windy-line{
+    font-size: 40px;
+    color: white;
+    
+    
+}
+
+.wind{
+    margin-top: -5px;
+    font-size: 30px;
+
+}
+
+.details{
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    margin-bottom: -50px;
+    margin-top: 60px;
+    
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    color: white;
+    font-size: 14px;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: none;
+}
